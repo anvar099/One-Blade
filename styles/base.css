@@ -64,3 +64,42 @@ html {
   color: #ffffff;
   text-decoration: none;
 }
+
+.text-dark {
+  font-family: "Gilroy-Regular";
+  font-size: 16px;
+  line-height: 24px;
+  color: #404042;
+}
+
+.text-light {
+  font-family: "Gilroy-Regular";
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.title-dark {
+  font-family: "Gilroy-Bold";
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.title-light {
+  font-family: "Gilroy-Bold";
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.bg-light {
+  background: #2C2C2E;
+}
+.bg-dark {
+  background: #1C1C1E;
+}
