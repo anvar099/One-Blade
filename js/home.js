@@ -5,4 +5,6 @@ $(".video__carousel").slick({
   dots: true,
 });
 
-
+function toggleMobileMenu(menu) {
+  menu.classList.toggle("open");
+}

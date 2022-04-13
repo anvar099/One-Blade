@@ -1,5 +1,6 @@
 @import url(./base.css);
 @import url(./notification_bar.css);
+@import url(./navigation.css);
 @import url(./footer.css);
 
 /* Banner */
@@ -33,7 +34,7 @@
   font-weight: 100;
   margin: 3.7rem 0 8rem 0;
   width: 100%;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 .banner__btn {
   display: flex;

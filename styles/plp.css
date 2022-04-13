@@ -1,0 +1,267 @@
+@import url(./base.css);
+@import url(./navigation.css);
+@import url(./footer.css);
+
+.shop__banner {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+.shop__banner-bg {
+  width: 50%;
+  background-image: url(../assets/images/shop_banner_bg.jpg);
+  background-repeat: no-repeat;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-size: cover;
+}
+
+.banner-bg__title {
+  font-family: "Gilroy-Bold";
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+  width: 65%;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #222222;
+}
+.banner-bg__text {
+  font-family: "Gilroy-Regular";
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  margin-top: 24px;
+  color: #404042;
+}
+.shop__banner__img-container {
+  width: 50%;
+  height: 100%;
+}
+.shop__banner__img {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+@media (max-width: 768px) {
+  .shop__banner__img-container {
+    display: none;
+  }
+  .shop__banner-bg {
+    width: 100%;
+  }
+  .banner-bg__title {
+    font-size: 24px;
+  }
+}
+.products__title {
+  font-family: "Gilroy-Bold";
+  font-size: 28px;
+  line-height: 140%;
+  text-align: center;
+  letter-spacing: 0.4em;
+  margin: 80px 0 16px 0;
+  text-transform: uppercase;
+}
+.category-list {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  width: 416px;
+  height: 48px;
+  align-items: center;
+  background: #f3f3f5;
+  justify-content: center;
+  margin-bottom: 86px;
+  margin-left: auto;
+}
+.category {
+  font-family: "Gilroy-Bold";
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+.category.thin {
+  font-family: "Gilroy-Regular";
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: initial;
+}
+
+.category__title {
+  font-family: "Gilroy-Bold";
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+.products {
+  padding: 30px 5% 53px 5%;
+}
+.products__row,
+.products__row-second,
+.products__row-third {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  justify-content: center;
+  gap: 16px;
+}
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.product__title {
+  font-family: "Gilroy-Bold";
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+.product__price {
+  display: flex;
+}
+.product__current-price {
+  font-family: "Gilroy-Regular";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+}
+.product__old-price {
+  font-family: "Gilroy-Regular";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #8f8f8f;
+  margin-left: 8px;
+}
+.product__text {
+  width: 90%;
+  text-align: center;
+  margin-bottom: 46px;
+}
+.product__img img {
+  width: 100%;
+}
+.product__select-btn {
+  margin: 8px 0;
+}
+.product__select-btn img {
+  margin-right: 20px;
+}
+.product__price {
+  margin: 9px 0 16px 0;
+}
+@media (max-width: 992px) {
+  .products__row,
+  .products__row-second,
+  .products__row-third {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 25px;
+  }
+  .btn-dark.product__btn {
+    border-radius: 0;
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .products__row,
+  .products__row-second,
+  .products__row-third {
+    grid-template-columns: 50% 50%;
+  }
+  .product__text {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .products__title {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  .category-list {
+    width: 100%;
+    left: 0;
+    right: 0;
+    position: absolute;
+    gap: 25px;
+  }
+  .category.thin {
+    display: none;
+  }
+  .category__title.category__razor {
+    margin-top: 100px;
+  }
+  .category__title {
+    text-align: center;
+    margin: 40px 0 25px 0;
+  }
+}
+
+.ads__banner-container {
+  display: flex;
+}
+.ads__banner__img {
+  width: 50%;
+}
+.ads__banner__img img{
+  width: 100%;
+}
+.ads__banner {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.ads__banner h2 {
+  font-family: "Gilroy-Bold";
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  width: 65%;
+  color: #ffffff;
+}
+.ads__banner p {
+  font-family: "Gilroy-Regular";
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  width: 80%;
+  margin: 24px 0 40px 0;
+}
+
+@media(max-width: 768px) {
+  .ads__banner-container {
+  flex-direction: column;
+  }
+  .ads__banner {
+    width: 100%;
+  }
+  .ads__banner__img {
+    width: 100%;
+  }
+  .ads__banner h2 {
+    font-size: 24px;
+    margin-top: 50px;
+  }
+  .ads__btn {
+    margin-top: 72px;
+    margin-bottom: 86px;
+  }
+}
