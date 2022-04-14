@@ -24,6 +24,11 @@ html {
   src: url(../assets/fonts/Gilroy-Regular.ttf);
 }
 
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
 
 .btn-light {
   display: flex;

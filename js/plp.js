@@ -80,6 +80,8 @@ function createCardSecond([
   productsSecond.innerHTML += codeSecond;
 }
 
+
+
 let item2 = [
   "../assets/images/plp-product.jpg",
   "brade",

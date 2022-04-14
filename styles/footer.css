@@ -98,3 +98,12 @@ footer {
     text-align: center;
   }
 }
+
+@media (max-width: 592px) {
+  .footer__btn {
+    order: 0;
+  }
+  .footer__text {
+    text-align: start;
+  }
+}

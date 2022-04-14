@@ -5,7 +5,7 @@
 .shop__banner {
   display: flex;
   width: 100%;
-  height: 100vh;
+  height: 75vh;
 }
 .shop__banner-bg {
   width: 50%;
