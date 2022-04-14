@@ -118,6 +118,10 @@
   align-items: center;
   width: 100%;
 }
+.product a {
+  text-decoration: none;
+  color: black;
+}
 .product__title {
   font-family: "Gilroy-Bold";
   font-size: 14px;

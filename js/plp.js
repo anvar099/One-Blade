@@ -20,7 +20,7 @@ function createCard([
             <img src="${icon2}" alt="" />
             <img src="${icon3}" alt="" />
           </div>
-          <h2 class="product__title">${title}</h2>
+          <a href="../pages/pdp.html"><h2 class="product__title">${title}</h2></a>
           <div class="product__price">
             <p class="product__current-price">${currentPrice}</p>
             <del class="product__old-price">${oldPrice}</del>
@@ -69,7 +69,7 @@ function createCardSecond([
             <img src="${icon2}" alt="" />
             <img src="${icon3}" alt="" />
           </div>
-          <h2 class="product__title">${title}</h2>
+          <a href="../pages/pdp.html"><h2 class="product__title">${title}</h2></a>
           <div class="product__price">
             <p class="product__current-price">${currentPrice}</p>
             <del class="product__old-price">${oldPrice}</del>
@@ -120,7 +120,7 @@ function createCardThird([
             <img src="${icon2}" alt="" />
             <img src="${icon3}" alt="" />
           </div>
-          <h2 class="product__title">${title}</h2>
+          <a href="../pages/pdp.html"><h2 class="product__title">${title}</h2></a>
           <div class="product__price">
             <p class="product__current-price">${currentPrice}</p>
             <del class="product__old-price">${oldPrice}</del>
