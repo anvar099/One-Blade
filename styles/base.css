@@ -10,10 +10,10 @@ html {
   box-sizing: border-box;
   font-size: 10px;
 }
-/* section {
-  max-width: 1440px;
-  margin: 0 auto;
-} */
+a {
+  user-select: none;  
+}
+
 @font-face {
   font-family: "Gilroy-Bold";
   src: url(../assets/fonts/Gilroy-Bold.ttf);

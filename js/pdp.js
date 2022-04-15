@@ -22,3 +22,14 @@ $(".d__product__img-container").slick({
     },
   ],
 });
+
+const cart = document.querySelector(".m__cart");
+const btn = document.querySelector("#m__cart-btn");
+const cartClose = document.querySelector("#m__cart-close");
+
+const toggleNav = () => {
+  cart.classList.toggle("m__card-open");
+};
+btn.addEventListener("click", toggleNav);
+cartClose.addEventListener("click", toggleNav);
+

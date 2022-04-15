@@ -52,11 +52,129 @@
         </nav>
         <div class="navbar__icon">
           <a href=""><img src="../assets/icons/account_icon.svg" alt="" /></a>
-          <a href=""><img src="../assets/icons/bag_icon.svg" alt="" /></a>
+          <a href="#" id="m__cart-btn"><img src="../assets/icons/bag_icon.svg" alt="" /></a>
         </div>
       </div>
     </section>
     
+    <section class="m__cart">
+      <div class="m__cart-container">
+        <div>
+          <div class="m__close" id="m__cart-close">
+            <img src="../assets/icons/Close X.svg"  alt="" />
+          </div>
+          <h2 class="m__cart-title">Cart</h2>
+          <div class="m__horyzontal__line"></div>
+          <div class="m__row">
+            <div class="m__product__img">
+              <img src="../assets/images/cart_img.png" loading="lazy" alt="" />
+            </div>
+            <div class="m__details-container">
+              <div class="m__cart-details">
+                <h3 class="m__details-name">Core Razor</h3>
+                <p class="m__details-color">Black</p>
+                <div class="m__cart__incrementor">
+                  <a class="m__minus" id="m__minus__number-1">-</a>
+                  <span class="m__value-1">1</span>
+                  <a class="m__plus" id="m__plus__number-1">+</a>
+                </div>
+              </div>
+              <p class="m__product-price">$24.99</p>
+            </div>
+          </div>
+        </div>
+        <div class="m__row">
+          <div class="m__product__img">
+            <img src="../assets/images/cart_img.png" loading="lazy" alt="" />
+          </div>
+          <div class="m__details-container">
+            <div class="m__cart-details">
+              <h3 class="m__details-name">Restore Serum</h3>
+              <p class="m__details-color">1 Oz.</p>
+              <div class="m__cart__incrementor">
+                <a class="m__minus" id="m__minus__number-2">-</a>
+                <span class="m__value-2">1</span>
+                <a class="m__plus" id="m__plus__number-2">+</a>
+              </div>
+            </div>
+            <div class="m__price__row">
+              <p class="m__product-price">$24.99</p>
+              <del class="m__product__price-old">$39.95</del>
+            </div>
+          </div>
+        </div>
+        <p class="m__product-text">Get Refill Plan, Save 20%</p>
+      </div>
+      <div class="m__cart-container-second">
+        <div class="m__sale-product">
+          <h3 class="m__title">add ons</h3>
+          <div class="m__row m__sale-row">
+            <div class="m__product__img">
+              <img src="../assets/images/cart_img.png" loading="lazy" alt="" />
+            </div>
+            <div class="m__details-container">
+              <div class="m__cart-details">
+                <h3 class="m__details-name">Product Name</h3>
+                <p class="m__details-sale-off">
+                  $10 off when you add in the next 5 minutes
+                </p>
+                <div class="m__sale-btn">
+                  <a class="m__sale-btn--link" href="">Add</a>
+                </div>
+              </div>
+              <div class="m__price__row-sale">
+                <del class="m__product__price-old">$39.95</del>
+                <p class="m__product-price">$24.99</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="m__row">
+            <div class="m__product__img">
+              <img src="../assets/images/cart_img.png" loading="lazy" alt="" />
+            </div>
+            <div class="m__details-container">
+              <div class="m__cart-details">
+                <h3 class="m__details-name">Product Name</h3>
+                <p class="m__details-sale-off">
+                  $10 off when you add in the next 5 minutes
+                </p>
+                <div class="m__sale-btn">
+                  <a class="m__sale-btn--link" href="">Add</a>
+                </div>
+              </div>
+              <div class="m__price__row-sale">
+                <del class="m__product__price-old">$39.95</del>
+                <p class="m__product-price">$24.99</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="m__cart-container-third">
+        <h3 class="m__title">subtotal</h3>
+        <p class="m__shipping-text">You’re $1 away from Free Shipping</p>
+        <img
+          class="m__shipping-progres"
+          src="../assets/images/progress bar.svg"
+          alt=""
+        />
+        <div class="m__checkout-btn">
+          <a class="m__checkout-btn--link" href="">checkout</a>
+        </div>
+        <div class="m__shipping-row">
+          <p class="m__shipping-text">Starting at $23/mo with</p>
+          <img
+            class="m__shipping-affirm"
+            src="../assets/icons/affirm.svg"
+            alt=""
+          />
+          <a class="m__shipping-link" href="">. Learn More</a>
+        </div>
+      </div>
+    </section>
+
+
     <section class="shop__banner container">
       <div class="shop__banner-bg">
         <h1 class="banner-bg__title">
@@ -128,6 +246,13 @@
         </div>
       </div>
     </footer>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <script src="../js/plp.js"></script>
   </body>
 </html>
