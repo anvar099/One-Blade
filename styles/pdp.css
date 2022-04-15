@@ -286,7 +286,7 @@
   .slick-dots {
   display: flex;
   position: absolute;
-  bottom: 30px;
+  bottom: -25px;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -298,16 +298,16 @@
 .slick-dots li button:before {
   position: absolute;
   content: "";
-  width: 100px;
+  width: 150px;
   height: 1px;
-  background-color: #dddddf;
+  background-color: #ffffff;
   transform: translate(-50%, -50%);
 }
 .slick-dots li button {
-  width: 100px;
+  width: 150px;
   border: none;
   font-size: 0;
-  background-color: #dddddf;
+  background-color: #ffffff;
 }
 
 .slick-dots li.slick-active button::before {
@@ -349,13 +349,13 @@
     margin-bottom: 10px;
   }
   .slick-dots {
-    bottom: 15px;
+    bottom: -25px;
   }
   .slick-dots li button {
-    width: 60px;
+    width: 90px;
   }
   .slick-dots li button:before {
-    width: 60px;
+    width: 90px;
   }
 }
 

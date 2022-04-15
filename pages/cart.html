@@ -1,22 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/cart.css">
+    <title>One Blade</title>
+  </head>
+  <body>
+    <section class="m__cart">
+      <div>
+        <h2 class="m__cart">Cart</h2>
+        <div class="m__horyzontal__line"></div>
+        <div class="m__row">
+          <div class="m__product__img">
+            <img src="../assets/images/cart_img.png" loading="lazy" alt="" />
+          </div>
+          <div class="m__cart-details">
+            <h3 class="m__details-name">Core Razor</h3>
+            <p class="m__details-color">Black</p>
+            <div class="m__cart__incrementor">
+              <a class="m__minus" id="m__minus__number-1">-</a>
+              <span class="m__value-1">1</span>
+              <a class="m__plus" id="m__plus__number-1">+</a>
+            </div>
+          </div>
+            <p class="m__product-price">$24.99</p> 
+        </div>
 
-  <section class="cart">
-    <div>
-      <h2>Cart</h2>
-      <div></div>
-    </div>
-  </section>
+         <div class="m__row">
+          <div class="m__product__img">
+            <img src="../assets/images/cart_img.png" loading="lazy" alt="" />
+          </div>
+          <div class="m__cart-details">
+            <h3 class="m__details-name">Restore Serum</h3>
+            <p class="m__details-color">1 Oz.</p>
+            <div class="m__cart__incrementor">
+              <a class="m__minus" id="m__minus__number-2">-</a>
+              <span class="m__value-2">1</span>
+              <a class="m__plus" id="m__plus__number-2">+</a>
+            </div>
+          </div>
+            <p class="m__product-price">$24.99</p> 
+            <del class="m__product__price-old">$39.95</del>
+        </div>
+        <a class="m__product-text">Get Refill Plan, Save 20%</a>
+      </div>
+    </section>
 
 
-
-</body>
+    <script src="../js/cart.js"></script>
+  </body>
 </html>
