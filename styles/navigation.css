@@ -25,7 +25,6 @@
   line-height: 16px;
   color: #ffffff;
   text-decoration: none;
-  
 }
 .nav__item:not(:last-child) {
   margin-right: 7.2rem;
@@ -39,8 +38,8 @@
     padding: 0 6%;
   }
   .nav__item:not(:last-child) {
-  margin-right: 5rem;
-}
+    margin-right: 5rem;
+  }
 }
 @media (max-width: 992px) {
   .nav {
@@ -67,8 +66,8 @@
     margin-right: 0;
   }
   .nav__item:not(:last-child) {
-  margin-right: 0;
-}
+    margin-right: 0;
+  }
   .nav__logo {
     position: absolute;
     left: 50%;
@@ -96,7 +95,6 @@
   .nav__item {
     margin-top: 30px;
   }
-
   .nav__layer-blur {
     opacity: 0;
     visibility: hidden;
