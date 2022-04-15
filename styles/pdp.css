@@ -8,11 +8,13 @@
 }
 .d__product__carousel {
   width: 50%;
+  display: flex;
+  align-items: center;
 }
+
 .d__product__img {
   width: 100%;
-  height: 100%;
- /* margin: auto; */
+
 }
 
 .d__product__img img {
@@ -258,8 +260,12 @@
   .details__title {
     font-size: 24px;
   }
+  .d__product__img img {
+    width: 30%;
+  }
   .d__product__carousel {
     width: 100%;
+    display: initial;
   }
   .d__product__details {
     width: 100%;
@@ -309,6 +315,9 @@
 }
 }
 @media (max-width: 592px) {
+  .d__product__img img {
+    width: 50%;
+  }
   .details__price {
     margin-top: 20px;
   }
@@ -317,9 +326,6 @@
   }
   .details__padding {
     margin: 30px 4% 0 4%;
-  }
-  .details__add-to-btn {
-    display: none;
   }
   .details__refund-text {
     display: block;
